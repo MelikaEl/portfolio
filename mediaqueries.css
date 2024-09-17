@@ -49,6 +49,16 @@
   }
 }
 
+
+@media (min-width: 601px) and (max-width: 1190px) {
+  .section__pic-container {
+    width: auto;
+    height: 46vw;
+    justify-content: center;
+  }
+   }
+
+
 @media screen and (max-width: 600px) {
   #contact,
   footer {
@@ -113,3 +123,5 @@
     text-align: justify;
   }
 }
+
+/* If our device doesn't place in the size category that we define it behaves as its default css in the css file */
