@@ -226,6 +226,10 @@ section {
   border-radius: 2rem;
 }
 
+.btn--large {
+  width: 17rem;
+}
+
 .btn-color-1,
 .btn-color-2 {
   border: rgb(53, 53, 53) 0.1rem solid;
@@ -252,10 +256,6 @@ section {
 
 .btn-color-2:hover {
   background: rgb(255, 255, 255) 0.1rem solid;
-}
-
-.btn-container {
-  gap: 1rem;
 }
 
 /* ABOUT SECTION */
@@ -332,7 +332,7 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  overflow-x: auto;/*horizontal scroll*/
+  overflow-x: auto; /*horizontal scroll*/
   /* white-space: nowrap; */
 }
 
@@ -417,22 +417,22 @@ article .icon {
   font-size: larger;
 }
 
-.contact-icon{
+.contact-icon {
   cursor: default;
 }
 
-.email-icon{
+.email-icon {
   height: 2.5rem;
 }
 
 /* FOOTER SECTION */
 
-footer{
+footer {
   height: 26vh;
   margin: 0 1rem;
 }
 
-footer p{
+footer p {
   text-align: center;
 }
 
